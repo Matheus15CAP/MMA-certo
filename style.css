@@ -16,7 +16,7 @@ Body {
             color: var(--cor-principal);
             
             }
-            footer a: hover {
+            footer a :hover {
                 color: var(--cor-destaque);
                 }
 
