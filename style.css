@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+:root {
+    --cor-principal: #FFDAB9;
+--cor-secundaria: #00CED1;
+--cor-destaque: #8A2BE2;
+}
+Body {
+    font-family: 'roboto mono', sans-serif;
+    }
+    h1, h2, h5 {
+        color: var(--cor-secundaria);
+        font-weight: 700;
+        }
+        footer a {
+
+            color: var(--cor-principal);
+            
+            }
+            footer a: hover {
+                color: var(--cor-destaque);
+                }
+
 .container{
     text-align: center;
 }
